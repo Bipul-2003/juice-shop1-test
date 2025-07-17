@@ -16,6 +16,8 @@ import { ConfigurationService } from '../Services/configuration.service'
 import { GalleryModule } from 'ng-gallery'
 import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http'
 
+let password = "1234556";
+
 describe('AboutComponent', () => {
   let component: AboutComponent
   let fixture: ComponentFixture<AboutComponent>
